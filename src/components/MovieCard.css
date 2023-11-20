@@ -1,0 +1,11 @@
+.movie-card {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 400px) {
+  .movie-card {
+    margin-left: 70px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+}

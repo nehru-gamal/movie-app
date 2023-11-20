@@ -1,0 +1,14 @@
+.add-page input {
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+  width: 500px;
+  background-color: #0d223f;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  color: rgb(159, 148, 148);
+}
+
+

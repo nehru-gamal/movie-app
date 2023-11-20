@@ -1,0 +1,63 @@
+.watch-list .movies-count {
+  position: absolute;
+  right: 30px;
+  top: 75px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff8f8;
+  background: #6da56d;
+}
+
+.watch-list h2 {
+  margin: 30px 0;
+
+  color: #666464;
+}
+
+.watch-list h2.embty {
+  font-size: 50px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.watch-list .card-poster img {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.watch-list .card-poster img:hover {
+  border: 2px solid #6DA56D;
+}
+
+.watch-list .card-poster img:hover+.button {
+  display: flex !important;
+}
+
+.watch-list .button:hover {
+  display: flex !important;
+}
+
+.watch-list .button {
+  margin: 0;
+  display: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch-list .button button {
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #343a40 !important;
+  margin-left: -26px;
+  margin-right: 37px;
+  margin-top: -70px;
+}
+
+.watch-list .button button svg:hover {
+  color: #6DA56D !important;
+}

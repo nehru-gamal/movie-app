@@ -1,0 +1,42 @@
+.header {
+  background-color: #0d223f;
+  padding: 8px 0;
+}
+
+.header h2 {
+  color: #fff;
+
+}
+
+.header ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.header ul li .btn {
+  color: #fff;
+  background-color: #198754;
+  font-weight: bold;
+}
+
+
+@media (max-width: 770px) {
+  .header h2 {
+    transform: translatey(50%);
+  }
+
+  .header .link {
+    transform: translatey(-60%);
+  }
+}
+
+@media (max-width: 400px) {
+  .header h2 {
+    display: none;
+  }
+
+  .header .link {
+    transform: translatey(-5%);
+    margin-left: -30px;
+  }
+}

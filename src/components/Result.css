@@ -1,0 +1,51 @@
+.movie {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster {
+  margin-top: -30px;
+}
+
+.poster img {
+  border-radius: 10px;
+  width: 85px;
+  height: 130px;
+}
+
+.info {
+  margin-top: -30px;
+}
+
+.info h4 {
+  color: #2c354e;
+}
+
+.info h6 {
+  color: #807575;
+}
+
+.button {
+  margin-top: 24px;
+}
+
+button {
+  color: rgb(92, 102, 124)mportant;
+  background-color: #198754 !important;
+  font-size: 17px !important;
+}
+
+button:hover {
+  background-color: #77ab94 !important;
+}
+
+@media (max-width: 500px) {
+  .poster img {
+    width: 100px;
+    height: 200px;
+  }
+  .button {
+    flex-direction: column;
+  }
+}
